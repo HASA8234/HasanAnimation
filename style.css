@@ -1,0 +1,115 @@
+/* تنسيق عام */
+body {
+    font-family: 'Almarai', sans-serif; /* استخدام الخط الجديد */
+    background-color: #1a1a1a; /* خلفية داكنة */
+    color: #ffffff; /* نص أبيض */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1e1e1e; /* أسود غامق */
+    color: white;
+    padding: 10px 0;
+    border-bottom-left-radius: 15px; /* حواف مستديرة */
+    border-bottom-right-radius: 15px;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1); /* ظل داخلي أبيض */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #1e1e1e; /* أسود غامق */
+    color: white;
+    padding: 50px 20px;
+    border-radius: 15px; /* حواف مستديرة */
+    margin: 20px;
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.1); /* ظل داخلي أبيض */
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 40px 20px;
+    background-color: #262626; /* خلفية داكنة للقوائم */
+    margin: 20px;
+    border-radius: 15px; /* حواف مستديرة */
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1); /* ظل داخلي أبيض */
+}
+
+h2 {
+    color: #0077b6; /* يمكنك تغيير هذا اللون إذا أردت */
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* حواف مستديرة للصور */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #1e1e1e; /* أسود غامق */
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 15px; /* حواف مستديرة */
+    border-top-right-radius: 15px;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1); /* ظل داخلي أبيض */
+}
+
+/* تنسيق الأيقونات */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0077b6; /* تغيير اللون عند التحويم */
+}
